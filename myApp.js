@@ -1,51 +1,7 @@
 const express = require('express');
 const app = express();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let helmet = require('helmet');
 
 module.exports = app;
 const api = require('./server.js');
